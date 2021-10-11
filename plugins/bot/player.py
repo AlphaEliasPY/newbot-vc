@@ -145,6 +145,11 @@ async def yplay(_, message: Message):
                 f"**{i}**. **{x[1]}**\n  - **Requested By:** {x[4]}"
                 for i, x in enumerate(playlist)
                 ])
+            try:
+            thumb = info["thumbnail"]
+        except:
+            thumb="https://telegra.ph/file/181242eab5c4a74916d01.jpg"
+            pass
         if EDIT_TITLE:
             await mp.edit_title()
         if message.chat.type == "private":
