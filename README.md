@@ -55,7 +55,7 @@ NOTE: Make Sure You Have Started A Voice Chat In Your Channel/Group Before Deplo
 ## Run On VPS
 
 ```sh
-$ git clone https://github.com/AsmSafone/RadioPlayerV3
+$ git clone https://github.com/AlphaEliasPY/newbot-vc
 $ cd RadioPlayerV3
 $ sudo apt install git curl python3-pip ffmpeg -y
 $ pip3 install -U pip
