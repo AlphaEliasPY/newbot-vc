@@ -1,6 +1,6 @@
 """
 RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Copyright (c) 2021  Asm Safone <https://github.com/AlphaEliasPY/newbot-vc>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -34,7 +34,7 @@ buttons = [
                 InlineKeyboardButton("SUPPORT", url="https://t.me/AndroidCave"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AlphaEliasPY/newbot-vc"),
             ]
          ]
 
@@ -48,7 +48,7 @@ async def search(client, query):
                 title="Deploy Your Own Radio Player",
                 thumb_url="https://telegra.ph/file/8aa6bd49118a4eb0b9d25.jpg",
                 photo_url="https://telegra.ph/file/8aa6bd49118a4eb0b9d25.jpg",
-                caption=f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@AsmSafone and fork\n@AlphaElias | @AndroidCave 👑</b>",
+                caption=f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@AlphaElias and | @AndroidCave 👑</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
