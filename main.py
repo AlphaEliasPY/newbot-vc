@@ -64,7 +64,7 @@ def stop_and_restart():
 
 bot.run(main())
 bot.start()
-print("\n\nRadio Player Bot Started, Join @AsmSafone!")
+print("\n\nRadio Player Bot Started, Join @AndroidCaveMusic!")
 bot.send(
     functions.bots.SetBotCommands(
         commands=[
