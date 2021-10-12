@@ -36,7 +36,7 @@ async def reply(client, message):
             )
     except BotInlineDisabled:
             print(f"Inline Mode for @{USERNAME} is not enabled. Enable it from @Botfather to turn on PM Guard !")
-            await message.reply_text(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@AsmSafone | @AsmSupport 👑</b>")
+            await message.reply_text(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@AlphaElias| @AndroidCave 👑</b>")
     except Exception as e:
         print(e)
         pass
