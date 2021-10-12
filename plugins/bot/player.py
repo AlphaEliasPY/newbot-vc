@@ -140,6 +140,11 @@ async def yplay(_, message: Message):
             print(f"- START PLAYING: {playlist[0][1]}")
         if not playlist:
             pl = f"{emoji.NO_ENTRY} **Empty Playlist!**"
+            try:
+            thumb = info["thumbnail"]
+        except:
+            thumb="https://telegra.ph/file/181242eab5c4a74916d01.jpg"
+            pass
         else:   
             pl = f"{emoji.PLAY_BUTTON} **Playlist**:\n" + "\n".join([
                 f"**{i}**. **{x[1]}**\n  - **Requested By:** {x[4]}"
